@@ -1,2 +1,22 @@
-# gcc-prebuilt-elf-toolchains
-This repo contains weekly Gcc 10 builds for x86_64 hosts, targeted for bare-metal (ELF / kernel-only) AArch64 systems.
+## Prerequisites
+
+`sudo apt-get install --yes git gcc g++ gperf bison flex texinfo elp2man make libncurses5-dev autoconf automake libtool libtool-bin gawk wget bzip2 xz-utils unzip patch python3 libstdc++6 subversion`
+
+
+## How to Build
+
+* `sudo apt-get update && sudo apt-get upgrade`
+* `cd Desktop`
+* `git clone https://github.com/crosstool-ng/crosstool-ng`
+* `cd crosstool-ng`
+* `./bootstrap $$ ./configure`
+* `make -j$(nproc --all)`
+* `make install`
+* `cd..`
+* `mkdir build`
+* `cd build`
+* Copy the defconfig file into build Directory
+* `ct-ng defconfig`
+* `ct-ng build`
+
+The Toolchain will be located in `/home/user/x-tools/`.
