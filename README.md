@@ -9,7 +9,7 @@
 * `cd Desktop`
 * `git clone https://github.com/crosstool-ng/crosstool-ng`
 * `cd crosstool-ng`
-* `./bootstrap $$ ./configure`
+* `./bootstrap && ./configure`
 * `make -j$(nproc --all)`
 * `make install`
 * `cd..`
