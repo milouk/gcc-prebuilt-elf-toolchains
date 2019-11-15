@@ -1,6 +1,6 @@
 ## Prerequisites
 
-`sudo apt-get install --yes git gcc g++ gperf bison flex texinfo elp2man make libncurses5-dev autoconf automake libtool libtool-bin gawk wget bzip2 xz-utils unzip patch python3 libstdc++6 subversion`
+`sudo apt-get install --yes git gcc g++ gperf bison flex texinfo help2man make libncurses5-dev autoconf automake libtool libtool-bin gawk wget bzip2 xz-utils unzip patch python3 libstdc++6 subversion`
 
 
 ## How to Build
