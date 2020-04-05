@@ -1,4 +1,4 @@
-# Weekly build are triggered every Sunday at 23:30.
+# Weekly builds are triggered every Sunday at 23:30.
 
 ## Prerequisites
 
