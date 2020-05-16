@@ -1,4 +1,4 @@
-# Weekly builds are triggered every Sunday at 23:30.
+# Weekly GCC 11 builds are triggered every Sunday at 23:30.
 
 ## Prerequisites
 
